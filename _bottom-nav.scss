@@ -1,0 +1,46 @@
+.bottom_navigation {
+  margin: 0 195px;
+  display: flex;
+  padding: 20px 22.5px;
+  li {
+    font-weight: 400;
+    color: #8b939b;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:first-child {
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      cursor: default;
+    }
+  }
+}
+
+.first, .second, .third {
+  width: 25%;
+  border-right: 1px dashed #8b939b;
+  padding-left: 10px;
+}
+
+.third :nth-child(4) {
+  color: #ccac55;
+}
+
+.fourth {
+  padding-left: 10px;
+  p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+  }
+  img {
+    padding-bottom: 5px;
+  }
+}
+
+

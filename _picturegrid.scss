@@ -1,0 +1,230 @@
+.picture-grid {
+  margin: 22px 215px;
+  background: #fff;
+  cursor: pointer;
+  p {
+    visibility: hidden;
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+.row_one {
+  height: 240px;
+  width: 100%;
+  display: flex;
+}
+
+.row_one_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/first_reflight_-_11_ses10_l-0_-_landing_cam02_-_040117_-_img_968528.jpg?itok=SgrHA7SY");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_one_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/39a_04_bi0i1343.jpg?itok=7tcQeVpZ");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_one_third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/geometry_12_default_poidx_10.18.16-3_-_resize.jpg?itok=7avcThXZ");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_two {
+  height: 240px;
+  width: 100%;
+  display: flex;
+}
+
+.row_two_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2016_-_06_crs8_landed2.jpg?itok=Lim2cB5t");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_two_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2015_-_12_default_crew_dragon_interior_wide.jpg?itok=a4eBr0jI");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_two_third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2014_-_12_default_mcgregor-01.jpg?itok=ARLeLm_I");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_three {
+  height: 240px;
+  width: 100%;
+  display: flex;
+}
+
+.row_three_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2013_-_11_vandenberg_sunset_rocket_on_pad.jpg?itok=QKmp1PCc");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_three_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2012_-_9_crs1_launch.jpg?itok=16EMKQnD");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_three_third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2011_-_01_04_c2-3_in_cleanroom_img_3957_resize_and_retouch.jpg?itok=yc_I1UEY");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_four {
+  height: 240px;
+  width: 100%;
+  display: flex;
+}
+
+.row_four_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2010_-_07_dragon_splashdown_cots1-2_resize.jpg?itok=9YZ1VoSQ");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_four_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2009_-_06_5_sunset_from_tower_4f7f1162.jpg?itok=4fQgZk7Y");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
+.row_four_third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  height: 100%;
+  background: url("https://www.spacex.com/sites/spacex/files/styles/new_gallery_listing_thumb/public/2008_-_02_default_falcon_1_flight_4_2008.jpg?itok=8t41-vnT");
+  background-size: cover;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      visibility: visible;
+    }
+  }
+}
+
